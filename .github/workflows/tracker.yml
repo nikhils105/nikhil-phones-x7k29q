@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests beautifulsoup4
-      - run: python tracker.py --scheduled
+      - run: python tracker.py ${{ github.event_name == 'schedule' && '--scheduled' || '' }}
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
       - name: Save price history
