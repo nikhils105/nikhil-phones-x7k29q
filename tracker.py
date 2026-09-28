@@ -30,7 +30,7 @@ PRODUCTS = [
     {"name": "iPhone 17 256GB (Amazon)", "url": "PASTE_URL", "target": 75000},
     {"name": "Galaxy S25 Ultra 256GB (Flipkart)", "url": "PASTE_URL", "target": 80000},
     {"name": "Galaxy S25 Ultra 256GB (Amazon)", "url": "PASTE_URL", "target": 80000},
-    {"name": "Galaxy S25 256GB", "url": "PASTE_URL", "target": 60000},
+    {"name": "Galaxy S25 256GB", "url": "https://dl.flipkart.com/s/1oCKtqNNNN", "target": 60000},
     {"name": "Pixel 11 256GB", "url": "PASTE_URL", "target": 75000},
     {"name": "OnePlus 15 256GB", "url": "PASTE_URL", "target": 65000},
 ]
